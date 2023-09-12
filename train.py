@@ -73,8 +73,8 @@ if __name__ == "__main__":
 
             # data loading
             # generator=torch.Generator(device='cuda')
-            self.AOT_UNet_train = getattr(loaders, self.classname)(phase='train')
-            self.dataloaders = DataLoader(self.AOT_UNet_train, shuffle=True, pin_memory=True,
+            self.AUGAN_train = getattr(loaders, self.classname)(phase='train')
+            self.dataloaders = DataLoader(self.AUGAN_train, shuffle=True, pin_memory=True,
                                           batch_size=args.batch_size, num_workers=args.num_workers)
 
         # Load the parameters before training
