@@ -9,7 +9,7 @@ dataloader: The instantiated dataset contains three different input scenarios
 
 loss: It includes MSE loss, VGG19 calculation style loss, VGG19 calculation perception loss, and patch-gan adversarial loss
 
-model: AU-GAN model structure
+model: ACT-GAN model structure
 
 output: Store test set predictions
 
